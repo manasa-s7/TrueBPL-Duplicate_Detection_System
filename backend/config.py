@@ -1,0 +1,12 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+SUPABASE_SERVICE_KEY = os.getenv("SUPABASE_SERVICE_KEY")
+
+FACE_MATCH_THRESHOLD = 0.6
+DUPLICATE_TIME_WINDOW_HOURS = 24
+MAX_TRANSACTIONS_PER_CYCLE = 1
