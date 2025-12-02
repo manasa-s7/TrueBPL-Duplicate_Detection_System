@@ -63,6 +63,7 @@ project/
 │   └── main.tsx                     # Application entry point
 └── README.md
 ```
+live : https://real-time-bpl-duplic-7q85.bolt.host/
 
 ## Database Schema
 
